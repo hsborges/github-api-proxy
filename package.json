@@ -18,7 +18,7 @@
     "prettier": "prettier --write --config .prettierrc.yml --ignore-path .prettierignore  '**/*.ts'",
     "version": "node -e 'console.log(process.env.npm_package_version)'",
     "add-version": "echo \"npm_package_version=$(node -e 'console.log(process.env.npm_package_version)')\" > dist/.env.version",
-    "prepare": "npm install . && npm run build"
+    "install": "npm install . && npm run build"
   },
   "bin": {
     "github-proxy-server": "./dist/cli.js"
