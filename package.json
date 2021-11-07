@@ -31,7 +31,8 @@
     "tests": true
   },
   "files": [
-    "dist"
+    "dist",
+    "architecture.png"
   ],
   "dependencies": {
     "bottleneck": "^2.19.5",
